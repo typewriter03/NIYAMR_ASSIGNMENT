@@ -4,6 +4,8 @@ An AI-powered legal analysis agent designed to **read, summarize, and interpret*
 
 ---
 
+# **Project Video Demo:* https://youtu.be/diclRQbOUL4
+
 ## 🚀 **Overview**
 
 The system automates legal document understanding through:
