@@ -1,0 +1,61 @@
+{
+  "summary": [
+    "The Act alters the rates and mandates specific annual up-rating formulas for the Standard Allowance, Limited Capability for Work (LCW) element, and Limited Capability for Work and Work-Related Activity (LCWRA) element of Universal Credit (UC) between tax years 2026-27 and 2029-30.",
+    "It mandates the Secretary of State to ensure the UC Standard Allowance increases annually by the Consumer Prices Index (CPI) plus a specified statutory uplift percentage (ranging from 2.3% to 4.8%).",
+    "It freezes the automatic annual up-rating (under the Social Security Administration Act 1992) for the UC Standard Allowance, LCW element, and LCWRA element during the specified four-year period.",
+    "The Act introduces a differential LCWRA rate structure effective 6 April 2026: a new lower amount (\u00a3217.26) for standard claimants, and a protected amount for specific groups.",
+    "The protected groups eligible for the higher LCWRA amount are defined as 'pre-2026 claimants', 'severe conditions criteria claimants', and claimants who are terminally ill.",
+    "A 'severe conditions criteria claimant' is a new category defined as someone who meets the LCWRA criteria and has a lifelong, medically diagnosed disease or disablement corresponding to specific descriptors.",
+    "The sum of the Protected LCWRA Amount and the Standard Allowance must be increased annually by at least the relevant CPI percentage.",
+    "Corresponding provisions apply to income-related Employment and Support Allowance (ESA IR), mandating the CPI + Uplift calculation for the ESA IR personal allowance.",
+    "The standard up-rating is also frozen for the ESA IR disability premiums, support component, and work-related activity component.",
+    "Schedule 2 mirrors the substantive provisions, including the rate changes and definitions, for Northern Ireland."
+  ],
+  "sections": {
+    "definitions": "Key definitions include:\nRelevant CPI percentage: The percentage by which the consumer prices index for the September before the start of the tax year is higher than it was for the September before that (or 0% if not higher) (S. 1(3)).\nRelevant uplift percentage: Fixed statutory percentages provided in a table (e.g., 2.3% for 2026-27, 4.8% for 2029-30) (S. 1(4)).\nPre-2026 claimant: A claimant who was entitled to the LCWRA element before 6 April 2026 and has been continuously entitled since then (Sch. 1, 4).\nSevere Conditions Criteria Claimant (SCC): A claimant determined to have limited capability for work and work-related activity, where at least one descriptor set out in Schedule 7 constantly applies and will do so for the rest of their life, based on a specific, diagnosed bodily disease or mental illness (Sch. 1, 6 / Reg 40A). \nProtected LCWRA amount: The amount of the LCWRA element that applies to a pre-2026 claimant, a severe conditions criteria claimant or a claimant who is terminally ill (S. 4(3)(a)).",
+    "obligations": "The Secretary of State must exercise a relevant power to secure that the amounts of the standard allowance for tax years 2026-27 to 2029-30 are at least the minimum amounts calculated (CPI + uplift) (S. 1(1)). \nWhere necessary, the Secretary of State must exercise power to increase the protected LCWRA amount or standard allowance to ensure the sum of those amounts for the current tax year is at least the amount given by increasing the sum for the previous tax year by the relevant CPI percentage (S. 4(1), (2)). \nCorresponding obligations are imposed on the Department for Communities in Northern Ireland (Sch. 2, 1(1)).",
+    "responsibilities": "The administering authority (Secretary of State/Department for Communities NI) is responsible for applying the three-step calculation (S. 1(2)) and implementing the statutory freezes, suspending the application of section 150(1) and (2)(c) of the Social Security Administration Act 1992 (S. 1(5), S. 3(1), S. 5(2)). They are also responsible for carrying out assessments to determine if a claimant is a severe conditions criteria claimant (Sch. 1, 6).",
+    "eligibility": "Eligibility for the higher, protected LCWRA element amount is restricted to a 'pre-2026 claimant, severe conditions criteria claimant or claimant who is terminally ill' (S. 2(1)). New claimants or claimants who do not fit those descriptions will be subject to the new standard rate. Eligibility for Severe Conditions Criteria Claimant status requires LCWRA status, plus demonstration that Schedule 7 descriptors apply constantly for the rest of the claimant\u2019s life, supported by a diagnosis from an NHS healthcare professional (Sch. 1, 6).",
+    "payments": "The minimum amounts of the standard allowance are calculated using a three-step process: take the previous amount, increase by the relevant CPI percentage, then increase by the relevant uplift percentage (S. 1(2)). \nA new specific amount for the LCWRA element is set at \u00a3217.26 for standard claimants (S. 2(1)).\nThe existing standard annual up-rating (S. 150 SSAA 1992) is frozen for the standard allowance, LCWRA element, LCW element, and specific ESA IR components for the tax years 2026-27 to 2029-30 (S. 1(5), S. 3(1), S. 5(2)).",
+    "penalties": "The Act does not contain provisions specifying penalties or enforcement measures.",
+    "record_keeping": "The Act does not contain explicit provisions regarding record-keeping or specific reporting requirements related to the administration of these changes."
+  },
+  "rules_analysis": [
+    {
+      "rule": "Act must define key terms",
+      "status": "pass",
+      "evidence": "Section 1(6) and (7) define 'consumer prices index', 'relevant power', 'the standard allowance' and 'tax year'. Schedule 1 defines 'pre-2026 claimant' and 'severe conditions criteria claimant'.",
+      "confidence": 100
+    },
+    {
+      "rule": "Act must specify eligibility criteria",
+      "status": "pass",
+      "evidence": "Schedule 1, Paragraph 4 (inserting Reg 27A) defines who is a 'pre-2026 claimant'. Schedule 1, Paragraph 6 (inserting Reg 40A) specifies criteria, including lifelong conditions and diagnosis, for a 'severe conditions criteria claimant', who is eligible for the protected LCWRA amount.",
+      "confidence": 100
+    },
+    {
+      "rule": "Act must specify responsibilities of the administering authority",
+      "status": "pass",
+      "evidence": "Section 1(1) states the Secretary of State 'must exercise a relevant power in order to secure' the minimum standard allowance amounts. Section 3(1) imposes the responsibility to suspend (not apply) existing uprating legislation.",
+      "confidence": 100
+    },
+    {
+      "rule": "Act must include enforcement or penalties",
+      "status": "fail",
+      "evidence": "The Act does not contain any provisions detailing penalties or enforcement mechanisms related to non-compliance by claimants or the administering authority.",
+      "confidence": 100
+    },
+    {
+      "rule": "Act must include payment calculation or entitlement structure",
+      "status": "pass",
+      "evidence": "Section 1(2) sets out the calculation (Step 1, Step 2 (CPI), Step 3 (Uplift)) for the minimum standard allowance. Section 2(1) specifies the new fixed LCWRA amount (\u00a3217.26). Section 4(2) establishes the entitlement structure for CPI indexation of protected amounts.",
+      "confidence": 100
+    },
+    {
+      "rule": "Act must include record-keeping or reporting requirements",
+      "status": "fail",
+      "evidence": "The Act does not include any explicit requirements for record-keeping, monitoring, or reporting mechanisms concerning the administration or outcomes of the mandated benefit changes.",
+      "confidence": 100
+    }
+  ]
+}
