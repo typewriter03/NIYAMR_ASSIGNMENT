@@ -5,8 +5,7 @@ from typing import Dict, List, Optional
 import google.generativeai as genai
 from pypdf import PdfReader
 
-# --- CONFIGURATION ---
-# In a real env, use: os.environ.get("GEMINI_API_KEY")
+
 API_KEY = os.environ.get("GEMINI_API_KEY", "") 
 
 class LegalAgent:
@@ -28,7 +27,6 @@ class LegalAgent:
             for page in reader.pages:
                 text = page.extract_text()
                 if text:
-                    # Basic cleaning per page
                     clean_page = self._clean_text(text)
                     full_text.append(clean_page)
             
@@ -41,23 +39,17 @@ class LegalAgent:
         Task 1 Requirement: 'The extracted text must be clean and structured.'
         Generalizes cleaning for UK Legislation style PDFs (removing recurring headers/footers).
         """
-        # 1. Generalize header removal using Regex
-        # Detects patterns like "Universal Credit Act 2025 (c. 22)" or "Data Protection Act 2018 (c. 12)"
-        # Logic: Matches text ending with "Act Year (c. Number)"
+        
         text = re.sub(r'.*Act \d{4}\s+\(c\.\s*\d+\)', '', text)
         
-        # 2. Remove page numbers and standard copyright lines
         lines = text.split('\n')
         cleaned_lines = []
         for line in lines:
             stripped = line.strip()
-            # Skip empty lines
             if not stripped:
                 continue
-            # Skip isolated page numbers (lines that are just digits)
             if stripped.isdigit(): 
                 continue
-            # Skip common footer text found in UK legislation
             if "Crown copyright" in stripped or "Stationery Office" in stripped:
                 continue
                 
@@ -65,7 +57,6 @@ class LegalAgent:
         
         text = "\n".join(cleaned_lines)
         
-        # 3. Remove multiple newlines which break reading flow
         text = re.sub(r'\n\s*\n', '\n\n', text)
         
         return text
